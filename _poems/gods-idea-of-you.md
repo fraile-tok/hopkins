@@ -1,6 +1,6 @@
 ---
 title: God's Idea of You
-author: jpi
+author: J.P.
 slug: gods-idea-of-you
 ---
 
