@@ -20,9 +20,11 @@
 <body>
     <div id="main">
         <h1>{{ poem.title }}</h1>
-        <p id="tagline">{{ poem.author }}</p>
+        <p id="author">{{ poem.author }}</p>
         <hr>
-        <p id="content">{{ poem.content | safe}}</p>
+        <div id="content">{{ poem.content | safe}}</div>
+        <hr>
+        <p id="tagline">Built with <a href="https://jpiglesias.github.io/hopkins">Hopkins</a> by <a href="https://jpiglesias.github.io">JPIglesias</a></p>
     </div>
 </body>
 </html>

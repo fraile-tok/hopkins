@@ -17,6 +17,7 @@ body {
     max-width: 680px !important;
     margin: 0 auto;
     padding: 30px 40px;
+    text-align: center;
 }
 
 #main img {
@@ -26,33 +27,33 @@ body {
 }
 
 #main h1 {
-    text-align: center;
     font-style: italic;
     margin: 0;
     margin-top: 16px;
     font-size: 3em;
 }
 
-#main #tagline {
-    text-align: center;
-    font-size: 1.2em;
+#main #author {
+    font-size: 1.3em;
     margin: 16px 0;
 }
 
-#main hr {
-    border: none;
-    height: 1px;
-    background-color: transparent;
-    margin: 16px 0;
+#main #content {
+    font-size: 1.1em;
+    display: inline-block;
+    text-align: left;
 }
-
-#main #content {}
 
 #main h2 {
     font-size: 1.7em;
     text-align: center;
     font-style: italic;
     margin: 16px 0;
+}
+
+#main #tagline {
+    opacity: .6;
+    font-style: italic;
 }
 
 a, .accent {
@@ -62,4 +63,11 @@ a, .accent {
 a:hover {
     opacity: 0.6;
     transition: 0.2s;
+}
+
+#main hr {
+    border: none;
+    height: 1px;
+    background-color: transparent;
+    margin: 16px 0;
 }
