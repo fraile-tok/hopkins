@@ -34,4 +34,4 @@ I am yet not sure.
 And all these things are
 Ever-bright, ever-kind,
 As if they were fashioned, too,
-from God's idea of you.
+From God's idea of you.
