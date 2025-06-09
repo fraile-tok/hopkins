@@ -8,9 +8,9 @@ import markdown
 from jinja2 import Environment, FileSystemLoader
 
 # 1) Configuration
-POEM_DIR = 'poems'       # where your .md files live
-OUT_DIR  = '.'           # where to dump .html output
-TEMPLATE_DIR = 'templates'
+POEM_DIR = '_poems'       # where your .md files live
+OUT_DIR  = 'poems'           # where to dump .html output
+TEMPLATE_DIR = '_templates'
 
 # Ensure output directory exists
 os.makedirs(OUT_DIR, exist_ok=True)
