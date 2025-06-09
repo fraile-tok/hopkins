@@ -38,17 +38,19 @@ for fname in sorted(os.listdir(POEM_DIR)):
     body = post.content or ''
 
     # Convert Markdown to HTML
-    html = markdown.markdown(body)
+    html = markdown.markdown(body, extensions=['nl2br'])
 
     # Derive defaults
     base = os.path.splitext(fname)[0]
     default_title = base.replace('-', ' ').replace('_', ' ').title()
     title = meta.get('title', default_title)
     slug  = meta.get('slug', base)
+    author = meta.get('author', 'Anonymous')
 
     poems.append({
         'title':   title,
         'slug':    slug,
+        'author':  author,
         'content': html
     })
 
