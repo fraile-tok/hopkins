@@ -29,7 +29,7 @@
       {% for p in poems %}
       <li>
         <a href="poems/{{ p.slug }}.html">{{ p.title }}</a>
-        <small> by {{ p.author }}</small>
+        <small> by </small><i>{{ p.author }}</i>
       </li>
       {% endfor %}
     </ul>
