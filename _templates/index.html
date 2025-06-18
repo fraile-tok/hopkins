@@ -26,37 +26,12 @@
         <hr>
         <h2>Poems</h2>
         <ul id="poem-list">
-      
+      {% for p in poems %}
       <li>
-        <a href="poems/gods-idea-of-you.html">God&#39;s Idea of You</a>
-        <small> by J.P.</small>
+        <a href="poems/{{ p.slug }}.html">{{ p.title }}</a>
+        <small> by {{ p.author }}</small>
       </li>
-      
-      <li>
-        <a href="poems/himno.html">Himno</a>
-        <small> by Jorge Luis Borges</small>
-      </li>
-      
-      <li>
-        <a href="poems/ozymandias.html">Ozymandias</a>
-        <small> by Percy Bysshe Shelley</small>
-      </li>
-      
-      <li>
-        <a href="poems/pied_beauty.html">Pied Beauty</a>
-        <small> by Gerard Manley Hopkins</small>
-      </li>
-      
-      <li>
-        <a href="poems/sonnet-116.html">Sonnet 116</a>
-        <small> by William Shakespeare</small>
-      </li>
-      
-      <li>
-        <a href="poems/the-hollow-men.html">The Hollow-Men</a>
-        <small> by T.S. Eliot</small>
-      </li>
-      
+      {% endfor %}
     </ul>
         <hr>
         <p id="tagline">Find the code on <a href="https://github.com/fraile-tok/hopkins">GitHub</a></p>
