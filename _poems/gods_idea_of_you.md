@@ -13,7 +13,7 @@ My Sun, Moon, and Stars.
 
 You will say I sin of flattery
 and that I abuse metaphor
-Spreading thruth ever-so thin
+Spreading truth ever-so thin
 And deceiving, above all
 My own, poor, unknowing soul.
 
