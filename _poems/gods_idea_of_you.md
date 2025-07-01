@@ -1,6 +1,6 @@
 ---
 title: God's Idea of You
-author: J.P.
+author: J.P. Iglesias
 slug: gods-idea-of-you
 ---
 
