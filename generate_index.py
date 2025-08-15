@@ -52,6 +52,12 @@ for fname in sorted(os.listdir(POEM_DIR)):
         'content': html
     })
 
+def _lastname(author):
+    a = (author or '').strip()
+    return a.split()[-1].lower() if a else ''
+
+poems.sort(key=lambda p: (_lastname(p.get('author')), (p.get('author') or '').lower()))
+
 if not poems:
     print("❌  No poems found in", POEM_DIR, file=sys.stderr)
     sys.exit(1)
