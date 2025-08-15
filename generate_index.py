@@ -6,65 +6,75 @@ import sys
 import frontmatter
 import markdown
 from jinja2 import Environment, FileSystemLoader
+from itertools import groupby
 
-# 1) Configuration
-POEM_DIR = '_poems'       # where your .md files live
-HTML_DIR  = 'poems'           # where to dump .html output
-TEMPLATE_DIR = '_templates'
-INDEX_NAME = 'index.html'
+# ─── CONFIG ───────────────────────────────────────────────
+POEM_DIR     = '_poems'      # where your .md files live
+HTML_DIR     = 'poems'       # where to dump .html files
+TEMPLATE_DIR = '_templates'  # your Jinja2 templates
+INDEX_NAME   = 'index.html'  # output filename
 
-# Load Jinja2 environment
+# Ensure output directory exists
+os.makedirs(HTML_DIR, exist_ok=True)
+
+# Set up Jinja2
 env = Environment(
     loader=FileSystemLoader(TEMPLATE_DIR),
     autoescape=True
 )
 
-# 2) Collect all poems
+# ─── COLLECT POEMS ────────────────────────────────────────
 poems = []
 for fname in sorted(os.listdir(POEM_DIR)):
     if not fname.lower().endswith('.md'):
         continue
 
-    path = os.path.join(POEM_DIR, fname)
+    full = os.path.join(POEM_DIR, fname)
     try:
-        post = frontmatter.load(path)
+        post = frontmatter.load(full)
     except Exception as e:
-        print(f"⚠️  Skipping {fname}: failed to parse front-matter ({e})", file=sys.stderr)
+        print(f"⚠️ Skipping {fname}: {e}", file=sys.stderr)
         continue
 
     meta = post.metadata or {}
-    body = post.content or ''
-
-    # Convert Markdown to HTML
-    html = markdown.markdown(body, extensions=['nl2br'])
-
-    # Derive defaults
+    # Normalize/fallbacks
     base = os.path.splitext(fname)[0]
     default_title = base.replace('-', ' ').replace('_', ' ').title()
-    title = meta.get('title', default_title)
-    slug  = meta.get('slug', base)
+    title  = meta.get('title', default_title)
+    slug   = meta.get('slug', base)
     author = meta.get('author', 'Anonymous')
 
     poems.append({
-        'title':   title,
-        'slug':    slug,
-        'author':  author,
-        'content': html
+        'title':  title,
+        'slug':   slug,
+        'author': author,
     })
 
-def _lastname(author):
-    a = (author or '').strip()
-    return a.split()[-1].lower() if a else ''
-
-poems.sort(key=lambda p: (_lastname(p.get('author')), (p.get('author') or '').lower()))
-
 if not poems:
-    print("❌  No poems found in", POEM_DIR, file=sys.stderr)
+    print("❌ No poems found!", file=sys.stderr)
     sys.exit(1)
 
+# ─── SORT & GROUP BY AUTHOR ───────────────────────────────
+# sort by normalized author name so groupby works correctly
+poems.sort(key=lambda p: (p.get('author') or '').strip().lower())
 
+# groupby requires adjacent items with same key, so sorting first is essential
+groups = []
+for author_key, items in groupby(poems, key=lambda p: (p.get('author') or '').strip()):
+    # sort poems for this author by title (case-insensitive)
+    group_list = sorted(list(items), key=lambda p: (p.get('title') or '').strip().lower())
+
+    # human-friendly display name (fallback to 'Anonymous')
+    display_author = group_list[0].get('author') if group_list and group_list[0].get('author') else 'Anonymous'
+
+    groups.append({
+        'author': display_author,
+        'poems':  group_list
+    })
+
+# ─── RENDER INDEX ─────────────────────────────────────────
 tpl = env.get_template('index.html')
-output = tpl.render(poems=poems)
+output = tpl.render(groups=groups)
 
 out_path = os.path.join(INDEX_NAME)
 with open(out_path, 'w', encoding='utf-8') as f:

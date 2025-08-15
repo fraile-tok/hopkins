@@ -1,40 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="utf-8">
+  <title>All Poems</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">
 
-    <!-- Title -->
-    <title>"Hopkins" by JPIglesias</title>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="main.css">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="main">
-        <h1>Hopkins</h1>
-        <p id="tagline">A repository of poetry</p>
-        <hr>
-        <p id="bio">A small repository of poetry I like.</p>
-        <hr>
-        <h2>Poems</h2>
-        <ul id="poem-list">
-      {% for p in poems %}
-      <li>
-        <a href="poems/{{ p.slug }}.html">{{ p.title }}</a>
-        <small> by </small><i>{{ p.author }}</i>
-      </li>
-      {% endfor %}
-    </ul>
-        <hr>
-        <p id="tagline">Find the code on <a href="https://github.com/fraile-tok/hopkins">GitHub</a></p>
-    </div>
+  <div id="main">
+    <h1>Hopkins</h1>
+      <p id="tagline">A repository of poetry</p>
+      <hr>
+      <p id="bio">A small repository of poetry I like.</p>
+      <hr>
+      <h2>Poems</h2>
+
+    {% for group in groups %}
+      <div class="author-block">
+        <span class="author-name"><i>{{ group.author }}</i></span>
+        <ul class="poem-list">
+          {% for p in group.poems %}
+            <li><a href="poems/{{ p.slug }}.html">{{ p.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+    {% endfor %}
+
+  </div>
 </body>
 </html>
