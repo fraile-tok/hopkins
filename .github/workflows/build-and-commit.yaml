@@ -1,0 +1,48 @@
+name: Build poems site (commit to same branch)
+
+# Trigger when sources change (not when generated files are pushed)
+on:
+  push:
+    paths:
+      - '_poems/**'
+      - '_templates/**'
+      - 'generate_poems.py'
+      - 'generate_index.py'
+      - 'main.css'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true   # needed so the job can push back
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          pip install python-frontmatter markdown jinja2
+
+      - name: Generate site
+        run: |
+          python generate_poems.py
+          python generate_index.py
+
+      - name: Ensure .nojekyll exists
+        run: mkdir -p . && touch .nojekyll
+
+      - name: Commit generated files
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: github-actions[bot]
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          message: "chore(site): build generated pages"
+          add: "poems/** index.html .nojekyll"
+          push: true
