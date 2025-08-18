@@ -8,7 +8,6 @@ on:
       - '_templates/**'
       - 'generate_poems.py'
       - 'generate_index.py'
-      - 'main.css'
 
 jobs:
   build:
