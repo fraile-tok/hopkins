@@ -3,10 +3,7 @@ title: The Hollow-Men
 author: T.S. Eliot
 ---
 
-Mistah Kurtz- he dead.
-
-The Hollow Men
-
+_Mistah Kurtz — he dead._
 _A penny for the Old Guy_
  
 #### I	
