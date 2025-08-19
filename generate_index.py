@@ -5,6 +5,7 @@ import os
 import sys
 import frontmatter
 import markdown
+import re
 from jinja2 import Environment, FileSystemLoader
 from itertools import groupby
 
@@ -13,6 +14,21 @@ POEM_DIR     = '_poems'      # where your .md files live
 HTML_DIR     = 'poems'       # where to dump .html files
 TEMPLATE_DIR = '_templates'  # your Jinja2 templates
 INDEX_NAME   = 'index.html'  # output filename
+
+_num_re = re.compile(r'(\d+)')
+
+def natural_key(s: str):
+    if not s:
+        return []
+    s = s.strip().lower()
+    parts = _num_re.split(s)
+    key = []
+    for part in parts:
+        if part.isdigit():
+            key.append(int(part))
+        else:
+            key.append(part.strip())
+    return key
 
 # Ensure output directory exists
 os.makedirs(HTML_DIR, exist_ok=True)
@@ -62,7 +78,7 @@ poems.sort(key=lambda p: (p.get('author') or '').strip().lower())
 groups = []
 for author_key, items in groupby(poems, key=lambda p: (p.get('author') or '').strip()):
     # sort poems for this author by title (case-insensitive)
-    group_list = sorted(list(items), key=lambda p: (p.get('title') or '').strip().lower())
+    group_list = sorted(list(items), key=lambda p: natural_key(p.get('title') or ''))
 
     # human-friendly display name (fallback to 'Anonymous')
     display_author = group_list[0].get('author') if group_list and group_list[0].get('author') else 'Anonymous'
