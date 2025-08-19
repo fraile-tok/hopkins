@@ -12,7 +12,7 @@ from itertools import groupby
 # ─── CONFIG ───────────────────────────────────────────────
 POEM_DIR     = '_poems'      # where your .md files live
 HTML_DIR     = 'poems'       # where to dump .html files
-TEMPLATE_DIR = '_templates'  # your Jinja2 templates
+TEMPLATE_DIR = '_templates'  # Jinja2 templates
 INDEX_NAME   = 'index.html'  # output filename
 
 _num_re = re.compile(r'(\d+)')
