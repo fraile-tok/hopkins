@@ -1,6 +1,7 @@
 ---
 author: J.P. Iglesias
 title: The Work
+---
 
 I will serve in my daily life,
 The daily fight, the daily flight.
