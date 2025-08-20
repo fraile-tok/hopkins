@@ -10,12 +10,20 @@ body {
     padding: 20px;
 }
 
+@media (max-width: 680px) {
+    body {
+        padding: 0;
+        margin: 0;
+        background-color: var(--warm-beige);
+    }
+}
+
 #main {
     background-color: var(--warm-beige);
     color: var(--text-dark);
     font-family: 'Cormorant Garamond', serif;
     font-weight: 400;
-    max-width: 680px !important;
+    max-width: 720px !important;
     margin: 0 auto;
     padding: 30px 40px;
     text-align: center;

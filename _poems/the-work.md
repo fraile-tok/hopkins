@@ -35,5 +35,5 @@ But do not count my steps:
 
 Can you measure love? Quantify piety?
 Can you ask the burning heart,
-"how much do you love?",
-without quenching its flame?
+"How much do you love?",
+Without quenching its flame?
