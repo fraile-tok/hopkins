@@ -86,3 +86,9 @@ a:hover {
 
 .author-name {margin-bottom: 0;}
 
+::selection {
+    background-color: var(--red-transparent);
+    color: var(--text-light);
+}
+
+
