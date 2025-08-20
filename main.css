@@ -1,7 +1,8 @@
 :root {
-    --warm-beige: rgb(245, 240, 235);
+    --warm-beige: rgb(243, 232, 221);
+    --text-light: var(--warm-beige);
     --text-dark: rgb(2, 1, 18);
-    --text-accent: #8d022e;
+    --text-accent:  rgb(141, 2, 46);
 }
 
 body {
@@ -87,6 +88,6 @@ a:hover {
 .author-name {margin-bottom: 0;}
 
 ::selection {
-    background-color: var(--red-transparent);
+    background-color: var(--text-accent);
     color: var(--text-light);
 }
