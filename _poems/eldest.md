@@ -4,9 +4,9 @@ author: J.P. Iglesias
 ---
 
 The first of the memories I hold,
-Those that still have not faded away,
+Those that have yet not flown away,
 Is that of the day I told the world,
-I would become a big brother again.
+I would become a big brother once more.
 
 First was my brother, one December,
 And then her, in August's times.
