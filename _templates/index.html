@@ -21,10 +21,10 @@
 
     {% for group in groups %}
       <div class="author-block">
-        <span class="author-name"><i>{{ group.author }}</i></span>
+        <span class="author-name">{{ group.author }}<</span>
         <ul class="poem-list">
           {% for p in group.poems %}
-            <li><a href="poems/{{ p.slug }}.html">{{ p.title }}</a></li>
+            <li><a href="poems/{{ p.slug }}.html"><i>{{ p.title }}</i></a></li>
           {% endfor %}
         </ul>
       </div>
