@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Title -->
-    <title>{{ poem.title }} by {{ poem.author }}</title>
+    <title>Gerard Manley Hopkins — Poems</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="../main.css">
@@ -19,12 +19,18 @@
 </head>
 <body>
     <div id="main">
-        <h1>{{ poem.title }}</h1>
-        <p id="author">{{ poem.author }}</p>
-        <hr>
-        <div id="content">{{ poem.content | safe}}</div>
-        <hr>
-        <p id="tagline"><a href="../index.html">Go back</a><br>Built with <a href="https://fraile-tok.github.io/hopkins">Hopkins</a> by <a href="https://jpiglesias.github.io">JPIglesias</a></p>
+        <h1>Gerard Manley Hopkins</h1>
+        <br>
+        <ul class="poem-list">
+            
+            <li><a href="../poems/gods-grandeur.html">God&#39;s Grandeur</a></li>
+            
+            <li><a href="../poems/pied-beauty.html">Pied Beauty</a></li>
+            
+            <li><a href="../poems/windhover.html">The Windhover</a></li>
+            
+        </ul>
+        <p id="tagline"><a href="javascript:history.back()">Go back</a><br>Built with <a href="https://fraile-tok.github.io/hopkins">Hopkins</a> by <a href="https://jpiglesias.github.io">JPIglesias</a></p>
     </div>
 </body>
 </html>

@@ -16,11 +16,9 @@ TEMPLATE_DIR = '_templates'
 os.makedirs(OUT_DIR, exist_ok=True)
 
 # Load Jinja2 environment
-env = Environment(
-    loader=FileSystemLoader(TEMPLATE_DIR),
-    autoescape=True
-)
+env = Environment(loader=FileSystemLoader(TEMPLATE_DIR), autoescape=True)
 
+# Delete existing output files
 for fname in os.listdir(OUT_DIR):
     path = os.path.join(OUT_DIR, fname)
     if fname.lower().endswith('.html'):
