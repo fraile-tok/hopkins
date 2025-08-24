@@ -10,7 +10,7 @@ from jinja2 import Environment, FileSystemLoader
 from itertools import groupby
 
 # ─── CONFIG ───────────────────────────────────────────────
-POEM_DIR     = '_poems'      # where your .md files live
+POEM_DIR     = '_poems'      # where .md files live
 HTML_DIR     = 'poems'       # where to dump .html files
 TEMPLATE_DIR = '_templates'  # Jinja2 templates
 INDEX_NAME   = 'index.html'  # output filename
@@ -80,7 +80,7 @@ for author_key, items in groupby(poems, key=lambda p: (p.get('author') or '').st
     # sort poems for this author by title (case-insensitive)
     group_list = sorted(list(items), key=lambda p: natural_key(p.get('title') or ''))
 
-    # human-friendly display name (fallback to 'Anonymous')
+    # display name (fallback to 'Anonymous')
     display_author = group_list[0].get('author') if group_list and group_list[0].get('author') else 'Anonymous'
 
     groups.append({

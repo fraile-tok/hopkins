@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Title -->
-    <title>{{ poem.title }} by {{ poem.author }}</title>
+    <title>Percy Bysshe Shelley — Poems</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="../main.css">
@@ -19,12 +19,16 @@
 </head>
 <body>
     <div id="main">
-        <h1>{{ poem.title }}</h1>
-        <p id="author">{{ poem.author }}</p>
-        <hr>
-        <div id="content">{{ poem.content | safe}}</div>
-        <hr>
-        <p id="tagline"><a href="../index.html">Go back</a><br>Built with <a href="https://fraile-tok.github.io/hopkins">Hopkins</a> by <a href="https://jpiglesias.github.io">JPIglesias</a></p>
+        <h1>Percy Bysshe Shelley</h1>
+        <br>
+        <ul class="poem-list">
+            
+            <li><a href="../poems/loves-philosophy.html">Love&#39;s Philosophy</a></li>
+            
+            <li><a href="../poems/ozymandias.html">Ozymandias</a></li>
+            
+        </ul>
+        <p id="tagline"><a href="javascript:history.back()">Go back</a><br>Built with <a href="https://fraile-tok.github.io/hopkins">Hopkins</a> by <a href="https://jpiglesias.github.io">JPIglesias</a></p>
     </div>
 </body>
 </html>
