@@ -8,6 +8,7 @@ on:
       - '_templates/**'
       - 'generate_poems.py'
       - 'generate_index.py'
+      - 'generate_author.py'
 
 jobs:
   build:
@@ -33,6 +34,7 @@ jobs:
         run: |
           python generate_poems.py
           python generate_index.py
+          python generate_author.py
 
       - name: Ensure .nojekyll exists
         run: mkdir -p . && touch .nojekyll
