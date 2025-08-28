@@ -1,6 +1,6 @@
 ---
 title: Sonnet 1
-author: William Shakespear
+author: William Shakespeare
 ---
 
 From fairest creatures we desire increase,
