@@ -2,7 +2,6 @@
 author: John Keats
 title: Ode to a Grecian Urn
 ---
-
 Thou still unravish'd bride of quietness,
        Thou foster-child of silence and slow time,
 Sylvan historian, who canst thus express
