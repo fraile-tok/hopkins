@@ -1,6 +1,6 @@
 ---
 title: The Cultivation of Christmas Trees
-author: T.S. Elio
+author: T.S. Eliot
 ---
 
 There are several attitudes towards Christmas,
