@@ -6,22 +6,22 @@ author: J.P. Iglesias
 *For the girl with eyes of a color still unknown.*
 
 A soft, rose-gold light,
-On your face kindly spun
-Symbol of day's death,
+on your face kindly spun,
+symbol of day's death,
 Cast by a westering Sun.
 
 Under its spell, you glow:
-Your skin, soft, shimmers;
-Your golden tresses shine,
-Every shade a new kind.
+your skin, soft, shimmers;
+your golden tresses shine,
+every shade a new kind.
 
 Each detail alive turns:
-Thrown in thoughtful stipple,
-From freckles to moles,
-Unto your skin burned.
+thrown in thoughtful stipple,
+from freckles to moles,
+unto your skin burned.
 
 I gaze above your nose,
-To find two bright moons,
+to find two bright moons.
 Not grey, not blue. Both.
 Quiet, fierce, and keen.
 
