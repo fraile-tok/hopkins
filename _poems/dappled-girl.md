@@ -3,7 +3,10 @@ title: Dappled Girl
 author: J.P. Iglesias
 ---
 
-*For the girl with eyes of a color still unknown.*
+*For the girl with eyes*
+*of a color still unknown.*
+
+—
 
 A soft, rose-gold light,
 on your face kindly spun,
