@@ -3,7 +3,7 @@ title: Dappled Girl
 author: J.P. Iglesias
 ---
 
-*For the girl with eyes of a color still unknown*
+*For the girl with eyes of a color still unknown.*
 
 A soft, rose-gold light,
 On your face kindly spun
@@ -34,6 +34,6 @@ Dappled girl,
 Light refracted:
 may I learn to see,
 in those, your eyes,
-(Like in Beatrix's Dante did)
+(like in Beatrix's Dante did)
 the Ever-Lasting Love,
 the Ever-Lasting Life.
