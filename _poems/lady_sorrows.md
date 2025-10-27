@@ -49,7 +49,7 @@ I have murdered Thy Son.
 You knew I would,
 Since Gabriel sung.
 You knew I would,
-When the Ghost you wed.
+When you wed the Ghost.
 
 You watched. You watch.
 The way uphill. My sins.
