@@ -45,5 +45,5 @@ jobs:
           author_name: github-actions[bot]
           author_email: 41898282+github-actions[bot]@users.noreply.github.com
           message: "chore(site): build generated pages"
-          add: "poems/** index.html .nojekyll"
+          add: "poems/** authors/** index.html .nojekyll"
           push: true
