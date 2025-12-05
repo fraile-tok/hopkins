@@ -5,6 +5,7 @@ import os
 import sys
 import frontmatter
 import markdown
+import re
 from jinja2 import Environment, FileSystemLoader
 
 # 1) Configuration
@@ -46,6 +47,24 @@ for fname in sorted(os.listdir(POEM_DIR)):
     meta = post.metadata or {}
     body = post.content or ''
 
+    # Normalize line endings
+    body = body.replace('\r\n', '\n').replace('\r', '\n').strip()
+
+    # Stanza-gathering (what is separated at least by one blank line)
+    stanza_texts = re.split(r'\n\s*\n+', body) if body else []
+
+    stanzas = []
+    for s in stanza_texts:
+        # keep leading spaces (use rstrip to remove trailing accidental spaces)
+        lines = [ln.rstrip('\n') for ln in s.splitlines()]
+        # Optionally drop empty leading/trailing lines inside stanza:
+        # while lines and lines[0].strip() == '':
+        #     lines.pop(0)
+        # while lines and lines[-1].strip() == '':
+        #     lines.pop()
+        if lines:
+            stanzas.append(lines)
+
     # Convert Markdown to HTML
     html = markdown.markdown(body, extensions=['nl2br'])
 
@@ -60,7 +79,7 @@ for fname in sorted(os.listdir(POEM_DIR)):
         'title':   title,
         'slug':    slug,
         'author':  author,
-        'content': html
+        'stanzas':   stanzas,
     })
 
 if not poems:
