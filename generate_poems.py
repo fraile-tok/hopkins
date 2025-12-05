@@ -54,16 +54,30 @@ for fname in sorted(os.listdir(POEM_DIR)):
     stanza_texts = re.split(r'\n\s*\n+', body) if body else []
 
     stanzas = []
+    stanzas_html = []
     for s in stanza_texts:
         # keep leading spaces (use rstrip to remove trailing accidental spaces)
         lines = [ln.rstrip('\n') for ln in s.splitlines()]
-        # Optionally drop empty leading/trailing lines inside stanza:
-        # while lines and lines[0].strip() == '':
-        #     lines.pop(0)
-        # while lines and lines[-1].strip() == '':
-        #     lines.pop()
-        if lines:
-            stanzas.append(lines)
+        if not lines:
+            continue
+
+        stanza_lines = []       # raw lines (optional)
+        stanza_html_lines = []
+
+        for ln in lines:
+            stanza_lines.append(ln)
+            line_html = markdown.markdown(ln, extensions=['extra'])
+
+            m = re.match(r'^\s*<p>(.*)</p>\s*$', line_html, flags=re.S) # to strip leading/trailing <p> tags
+            if m:
+                inner = m.group(1)
+                stanza_html_lines.append({'tag': 'p', 'content': inner})
+            else:
+                # we keep the rest of the tags
+                stanza_html_lines.append({'tag': None, 'content': line_html})
+
+        stanzas.append(stanza_lines)
+        stanzas_html.append(stanza_html_lines)
 
     # Convert Markdown to HTML
     html = markdown.markdown(body, extensions=['nl2br'])
@@ -79,7 +93,8 @@ for fname in sorted(os.listdir(POEM_DIR)):
         'title':   title,
         'slug':    slug,
         'author':  author,
-        'stanzas':   stanzas,
+         'stanzas': stanzas,
+        'stanzas_html': stanzas_html
     })
 
 if not poems:
