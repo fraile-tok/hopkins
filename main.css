@@ -54,7 +54,8 @@ body {
 }
 
 #main #content h4 {
-    margin-bottom: -1em;
+    font-size: 1.2em;
+    margin-bottom: .2em;
 }
 
 #main h2 {
@@ -103,11 +104,6 @@ a:hover {
     margin-bottom: 1em;
 }
 
-.stanza h1, .stanza h2, .stanza h3, .stanza h4, .stanza h5, .stanza h6 {
-    line-height: 1.15;
-    margin-top: 1.1rem;
-    margin-bottom: 0.35rem;
-}
 
 .verse-line {
     margin: 0 0 .25em 0;
