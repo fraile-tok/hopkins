@@ -91,9 +91,23 @@ a:hover {
     margin: 0;
 }
 
-.author-block { margin-bottom: 1.25rem; } 
+.author-block {
+    margin-bottom: 1.25rem;
+} 
 
-.author-name {margin-bottom: 0;}
+.author-name {
+    margin-bottom: 0;
+}
+
+.stanza {
+    margin-bottom: 1em;
+}
+
+.verse-line {
+    margin: 0 0 .25em 0;
+    padding-left: 1.25em;
+    text-indent: -1.25em;
+}
 
 ::selection {
     background-color: var(--text-accent);
