@@ -53,8 +53,20 @@ body {
     text-align: left;
 }
 
-#main #content h4 {
-    margin-bottom: -1em;
+/* Generated Poem Styling */
+.stanza {
+    margin-bottom: 1em;
+}
+
+.verse-line {
+    margin: 0 0 .25em 0;
+    padding-left: 1.25em;
+    text-indent: -1.25em;
+}
+
+#main #content h4, .stanza h4 {
+    font-size: 1.2em;
+    margin-bottom: .2em;
 }
 
 #main h2 {
@@ -91,9 +103,13 @@ a:hover {
     margin: 0;
 }
 
-.author-block { margin-bottom: 1.25rem; } 
+.author-block {
+    margin-bottom: 1.25rem;
+} 
 
-.author-name {margin-bottom: 0;}
+.author-name {
+    margin-bottom: 0;
+}
 
 ::selection {
     background-color: var(--text-accent);

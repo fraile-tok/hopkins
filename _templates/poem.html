@@ -22,7 +22,26 @@
         <h1>{{ poem.title }}</h1>
         <p id="author">{{ poem.author }}</p>
         <hr>
-        <div id="content">{{ poem.content | safe}}</div>
+        <div id="content">
+            {% if poem.stanzas_html %}
+                {% for stanza in poem.stanzas_html %}
+                    <div class="stanza">
+                        {% for line in stanza %}
+                            {% if line.tag == 'p' %}
+                                <p class="verse-line">{{ line.content | safe }}</p>
+                            {% else %}
+                                {# block-level HTML (h1..h6, ul, etc.) rendered as-is #}
+                                {{ line.content | safe }}
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                {% endfor %}
+            {% else %}
+                    <div class="fallback-content">
+                        {{ poem.content | safe }}
+                    </div>
+            {% endif %}
+        </div>
         <hr>
         <p id="tagline"><a href="../index.html">Go back</a><br>Built with <a href="https://fraile-tok.github.io/hopkins">Hopkins</a> by <a href="https://jpiglesias.github.io">JPIglesias</a></p>
     </div>
