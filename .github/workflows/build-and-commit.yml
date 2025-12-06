@@ -28,7 +28,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          pip install python-frontmatter markdown jinja2 re
+          pip install python-frontmatter markdown jinja2
 
       - name: Generate site
         run: |
