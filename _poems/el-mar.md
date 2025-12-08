@@ -14,8 +14,8 @@ de la tierra y es uno y muchos mares
 y abismo y resplandor y azar y viento?
 
 Quien lo mira lo ve por vez primera,
-siempre. Con el asombro que las cosas1
-elementales dejan, las hermosas1
+siempre. Con el asombro que las cosas
+elementales dejan, las hermosas
 
 tardes, la luna, el fuego de una hoguera.
 ¿Quién es el mar, quién soy? Lo sabré el día
