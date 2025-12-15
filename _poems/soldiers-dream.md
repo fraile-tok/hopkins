@@ -1,0 +1,14 @@
+---
+author: Wilfred Owen
+title: Soldier's Dream
+---
+
+I dreamed kind Jesus fouled the big-gun gears;
+And caused a permanent stoppage in all bolts;
+And buckled with a smile Mausers and Colts;
+And rusted every bayonet with His tears.
+
+And there were no more bombs, of ours or Theirs,
+Not even an old flint-lock, not even a pikel.
+But God was vexed, and gave all power to Michael;
+And when I woke he’d seen to our repairs.
