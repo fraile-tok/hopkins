@@ -1,6 +1,6 @@
 ---
 author: Jorge Luis Borges
-title: El suicida
+title: El Suicida
 ---
 
 No quedará en la noche una estrella.

@@ -1,5 +1,5 @@
 ---
-title: To Austen
+title: For Jane
 author: J.P. Iglesias
 ---
 
