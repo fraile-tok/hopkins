@@ -5,7 +5,7 @@ title: Saint Joseph's Lullaby
 
 _Hum_, _hum_, the carpenter hums, 
 &nbsp;&nbsp;&nbsp;&nbsp;Holding in arms the weight of the world.
-His love by his side, asleep witha smile,
+His love by his side, asleep with a smile,
 &nbsp;&nbsp;&nbsp;&nbsp;But doubt, doubt, creeps in his mind.
 
 Child, child, rests in his chest,
