@@ -1,6 +1,6 @@
 ---
 author: J.P. Iglesias
-title: The Girl that Goes "Uh-Oh"
+title: The Girl That Goes "Uh-Oh"
 ---
 
 I met a baby that says,
