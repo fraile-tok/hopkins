@@ -105,6 +105,11 @@ a:hover {
     margin-top: 0 !important;
 }
 
+#author-poem-count {
+    opacity: .6;
+    font-style: italic !important;
+}
+
 .poem-list, .author-list {
     list-style: none;
     padding: 0;

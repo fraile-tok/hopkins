@@ -20,6 +20,7 @@
 <body>
     <div id="main">
         <h1>{{ author }}</h1>
+        <p id="author-poem-count">Author's poems collected: {{ author_count }}</p>
         <br>
         <ul class="poem-list">
             {% for p in poems %}

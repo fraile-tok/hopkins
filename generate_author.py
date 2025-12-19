@@ -118,13 +118,14 @@ for author_key, items in groupby(poems, key=lambda p: (p.get('author') or '').st
     groups.append({
         'author': display_author,
         'author_slug': author_slug,
-        'poems': group_list
+        'poems': group_list,
+        'author_count': len(group_list)
     })
 
 # Render author pages
 for g in groups:
     out_path = os.path.join(OUT_DIR, f"{g['author_slug']}.html")
-    rendered = tpl.render(author=g['author'], poems=g['poems'], author_slug=g['author_slug'])
+    rendered = tpl.render(author=g['author'], poems=g['poems'], author_slug=g['author_slug'], author_count=g['author_count'])
     with open(out_path, 'w', encoding='utf-8') as f:
         f.write(rendered)
         print(f"✔️  Wrote {out_path}")
