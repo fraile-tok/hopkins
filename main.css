@@ -97,10 +97,19 @@ a:hover {
     margin: 16px 0;
 }
 
-.poem-list {
+.poem-list, .author-list {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+.author-list li {
+    margin-bottom: .3em;
+    font-style: italic;
+}
+
+.author-list li a {
+    text-decoration: none;
 }
 
 .author-block {
