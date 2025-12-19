@@ -96,6 +96,7 @@ for author_key, items in groupby(poems, key=lambda p: (p.get('author') or '').st
 
 used_slugs = set()
 authors_list = []
+poem_count = 0 # start from 0
 
 for name in sorted(authors_map.keys(), key=lambda s: s.lower()):
     base = slugify_lastname(name)
@@ -117,6 +118,8 @@ for name in sorted(authors_map.keys(), key=lambda s: s.lower()):
 
     used_slugs.add(candidate)
 
+    poem_count += len(authors_map[name])
+
     authors_list.append({
         'author': name,
         'author_slug': candidate,
@@ -132,7 +135,7 @@ except Exception as e:
     print("Available templates:", env.list_templates(), file=sys.stderr)
     sys.exit(1)
 
-index_out = tpl_index.render(authors=authors_list)
+index_out = tpl_index.render(authors=authors_list, poem_count=poem_count)
 
 with open(INDEX_NAME, 'w', encoding='utf-8') as f:
     f.write(index_out)
