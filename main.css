@@ -73,12 +73,13 @@ body {
     font-size: 1.7em;
     text-align: center;
     font-style: italic;
-    margin: 16px 0;
+    margin: .8em 0;
 }
 
 #main #tagline {
     opacity: .6;
     font-style: italic;
+    margin-top: 0 !important;
 }
 
 a, .accent {
@@ -97,10 +98,27 @@ a:hover {
     margin: 16px 0;
 }
 
-.poem-list {
+#poem-count {
+    opacity: .6;
+    font-style: italic !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+
+.poem-list, .author-list {
     list-style: none;
     padding: 0;
     margin: 0;
+    margin-bottom: 2em !important;
+}
+
+.author-list li {
+    margin-bottom: .3em;
+    font-style: italic;
+}
+
+.author-list li a {
+    text-decoration: none;
 }
 
 .author-block {
