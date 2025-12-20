@@ -24,13 +24,13 @@ To place what is man-made,
 Upon God's demesne.
 
 I turn then, my mind's eyes,
-To the age of the sea,
+To the age of the sea.
 Before I was, it was.
 After I die, it shall live on.
 
 The sea is never the same.
 If you look away, and then back,
-The water you called sea
+The waters you called sea
 Are now lost.
 
 It has seen many things.
