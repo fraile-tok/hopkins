@@ -13,4 +13,4 @@ All things counter, original, spare, strange;
 &nbsp;&nbsp;&nbsp;&nbsp;Whatever is fickle, freckled (who knows how?)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With swift, slow; sweet, sour; adazzle, dim;
 He fathers-forth whose beauty is past change:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Praise Him.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Praise Him.
