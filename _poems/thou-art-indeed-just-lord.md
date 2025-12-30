@@ -3,8 +3,8 @@ author: Gerard Manley Hopkins
 title: Thou Art Indeed Just, Lord
 ---
 
-*Justus quidem tu es, Domine, si disputem tecum; verumtamen
-justa loquar ad te: Quare via impiorum prosperatur? &c. *
+_Justus quidem tu es, Domine, si disputem tecum; verumtamen_
+_justa loquar ad te: Quare via impiorum prosperatur? &c_
 
 Thou art indeed just, Lord, if I contend 
 With thee; but, sir, so what I plead is just. 

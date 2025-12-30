@@ -6,6 +6,7 @@ slug: pangur-ban
 
 _English text by Seamus Heaney_
 
+
 Pangur Bán and I at work,
 Adepts, equals, cat and clerk:
 His whole instinct is to hunt,
