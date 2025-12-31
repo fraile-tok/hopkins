@@ -4,7 +4,7 @@ title: Thou Art Indeed Just, Lord
 ---
 
 _Justus quidem tu es, Domine, si disputem tecum; verumtamen_
-_justa loquar ad te: Quare via impiorum prosperatur? &c_
+_justa loquar ad te: Quare via impiorum prosperatur? &c._
 
 Thou art indeed just, Lord, if I contend 
 With thee; but, sir, so what I plead is just. 
