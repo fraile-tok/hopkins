@@ -3,7 +3,7 @@ title: For Jane
 author: J.P. Iglesias
 ---
 
-_On the occassion of Jane Austen's 250th birthday._
+_On the occasion of Jane Austen's 250th birthday._
 
 Let's raise for Jane a toast,
 And hope it turns not to a roast.
