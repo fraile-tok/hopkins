@@ -1,6 +1,6 @@
 ---
 author: Gerard Manley Hopkins
-title: As Kingfishers Catch Fire
+title: As kingfishers catch fire
 ---
 
 As kingfishers catch fire, dragonflies draw flame;
