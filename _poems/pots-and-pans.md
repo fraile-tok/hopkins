@@ -1,5 +1,5 @@
 ---
-author: J.P Iglesias
+author: J.P. Iglesias
 title: Pots and Pans
 ---
 
