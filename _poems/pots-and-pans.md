@@ -13,7 +13,7 @@ Does it bear any marks?
 &nbsp;&nbsp;&nbsp;&nbsp;Through our own longing?
 
 Thankfully, glamour does wear off.
-&nbsp;&nbsp;&nbsp;&nbsp;Flowers are then watered, not bought.
+&nbsp;&nbsp;&nbsp;&nbsp;Flowers are now watered, not bought.
 &nbsp;&nbsp;&nbsp;&nbsp;Passion is now patience. Tryst, routine.
 Seems, then, wise Therese was right:
 &nbsp;&nbsp;&nbsp;&nbsp;Where does Love hide?
