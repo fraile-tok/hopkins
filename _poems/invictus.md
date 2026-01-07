@@ -1,5 +1,5 @@
 ---
-author:
+author: William Ernest Henley
 title: Invictus
 ---
 
