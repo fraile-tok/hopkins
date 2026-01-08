@@ -1,6 +1,6 @@
 ---
 author: Jorge Luis Borges
-title: La Ausencia
+title: La ausencia
 ---
 
 Habré de levantar la vasta vida

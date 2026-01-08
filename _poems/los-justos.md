@@ -1,5 +1,5 @@
 ---
-title: Los Justos
+title: Los justos
 author: Jorge Luis Borges
 ---
 

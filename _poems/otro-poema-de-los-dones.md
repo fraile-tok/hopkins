@@ -1,5 +1,5 @@
 ---
-title: Otro Poema de los Dones
+title: Otro poema de los dones
 author: Jorge Luis Borges
 ---
 

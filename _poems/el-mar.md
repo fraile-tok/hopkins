@@ -1,5 +1,5 @@
 ---
-title: El Mar
+title: El mar
 author: Jorge Luis Borges
 ---
 
