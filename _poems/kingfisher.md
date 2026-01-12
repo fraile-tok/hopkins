@@ -9,10 +9,10 @@ Now! A chance!
 &nbsp;&nbsp;&nbsp;&nbsp;See the kingfisher dive!
 He cuts through the air
 &nbsp;&nbsp;&nbsp;&nbsp;As old, mighty lance,
-To catch in his peak,
+To catch in his beak,
 &nbsp;&nbsp;&nbsp;&nbsp;Some unlucky fish.
 
-Nature's winger harpoon,
+Nature's winged harpoon,
 &nbsp;&nbsp;&nbsp;&nbsp;Sports a coat ever-blue,
 But in flight you may catch,
 &nbsp;&nbsp;&nbsp;&nbsp;His proud orange chest,
