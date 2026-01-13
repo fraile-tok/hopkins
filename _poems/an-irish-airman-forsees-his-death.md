@@ -1,5 +1,5 @@
 ---
-author: William Butler Yeats
+author: W.B. Yeats
 title: An Irish Airman Foresees His Death
 ---
 
