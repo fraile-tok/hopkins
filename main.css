@@ -117,6 +117,10 @@ a:hover {
     margin-bottom: 2em !important;
 }
 
+.poem-list li {
+    margin-bottom .3em;
+}
+
 .author-list li {
     margin-bottom: .3em;
     font-style: italic;
