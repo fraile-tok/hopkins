@@ -7,6 +7,7 @@ import frontmatter
 import markdown
 import re
 from jinja2 import Environment, FileSystemLoader
+from pathlib import Path
 
 # 1) Configuration
 POEM_DIR = '_poems'       # where .md files live
@@ -33,15 +34,18 @@ for fname in os.listdir(OUT_DIR):
 
 # 2) Collect all poems
 poems = []
-for fname in sorted(os.listdir(POEM_DIR)):
-    if not fname.lower().endswith('.md'):
-        continue
+poem_root = Path(POEM_DIR)
 
-    path = os.path.join(POEM_DIR, fname)
+for path in sorted(poem_root.rglob('*.md')):
+    rel = path.relative_to(poem_root)          
+    rel_str = rel.as_posix()                   
+    slug_default = rel.with_suffix('').as_posix()
+    slug_default = re.sub(r'.*[\\/]', '', slug_default) 
+
     try:
-        post = frontmatter.load(path)
+        post = frontmatter.load(str(path))
     except Exception as e:
-        print(f"⚠️  Skipping {fname}: failed to parse front-matter ({e})", file=sys.stderr)
+        print(f"⚠️  Skipping {rel_str}: failed to parse front-matter ({e})", file=sys.stderr)
         continue
 
     meta = post.metadata or {}
@@ -56,45 +60,44 @@ for fname in sorted(os.listdir(POEM_DIR)):
     stanzas = []
     stanzas_html = []
     for s in stanza_texts:
-        # keep leading spaces (use rstrip to remove trailing accidental spaces)
         lines = [ln.rstrip('\n') for ln in s.splitlines()]
         if not lines:
             continue
 
-        stanza_lines = []       # raw lines (optional)
+        stanza_lines = []    
         stanza_html_lines = []
 
         for ln in lines:
             stanza_lines.append(ln)
             line_html = markdown.markdown(ln, extensions=['extra'])
 
-            m = re.match(r'^\s*<p>(.*)</p>\s*$', line_html, flags=re.S) # to strip leading/trailing <p> tags
+            m = re.match(r'^\s*<p>(.*)</p>\s*$', line_html, flags=re.S) 
             if m:
                 inner = m.group(1)
                 stanza_html_lines.append({'tag': 'p', 'content': inner})
             else:
-                # we keep the rest of the tags
                 stanza_html_lines.append({'tag': None, 'content': line_html})
 
         stanzas.append(stanza_lines)
         stanzas_html.append(stanza_html_lines)
 
-    # Convert Markdown to HTML
+    # Convert whole body to HTML as a fallback (you used this earlier)
     html = markdown.markdown(body, extensions=['nl2br'])
 
-    # Derive defaults
-    base = os.path.splitext(fname)[0]
-    default_title = base.replace('-', ' ').replace('_', ' ').title()
+    # default_title based on filename (same behavior as before)
+    default_title = path.stem.replace('-', ' ').replace('_', ' ').title()
     title = meta.get('title', default_title)
-    slug  = meta.get('slug', base)
+    slug  = meta.get('slug', slug_default)
     author = meta.get('author', 'Anonymous')
 
     poems.append({
-        'title':   title,
-        'slug':    slug,
-        'author':  author,
-         'stanzas': stanzas,
-        'stanzas_html': stanzas_html
+        'title':        title,
+        'slug':         slug,
+        'author':       author,
+        'stanzas':      stanzas,
+        'stanzas_html': stanzas_html,
+        'html':         html,         
+        'source_path':  rel_str         
     })
 
 if not poems:

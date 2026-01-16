@@ -9,6 +9,8 @@ import re
 from jinja2 import Environment, FileSystemLoader
 from itertools import groupby
 from unicodedata import normalize
+from pathlib import Path
+from unicodedata import normalize
 
 # ─── CONFIG ───────────────────────────────────────────────
 POEM_DIR     = '_poems'      # where .md files live
@@ -55,20 +57,20 @@ env = Environment(
 
 # ─── COLLECT POEMS ────────────────────────────────────────
 poems = []
-for fname in sorted(os.listdir(POEM_DIR)):
-    if not fname.lower().endswith('.md'):
-        continue
+poem_root = Path(POEM_DIR)
 
-    full = os.path.join(POEM_DIR, fname)
+for path in sorted(poem_root.rglob('*.md')):
+    rel = path.relative_to(poem_root)
+    rel_str = rel.as_posix()
+
     try:
-        post = frontmatter.load(full)
+        post = frontmatter.load(str(path))
     except Exception as e:
-        print(f"⚠️ Skipping {fname}: {e}", file=sys.stderr)
+        print(f"⚠️ Skipping {rel_str}: {e}", file=sys.stderr)
         continue
 
     meta = post.metadata or {}
-    # Normalize/fallbacks
-    base = os.path.splitext(fname)[0]
+    base = path.stem
     default_title = base.replace('-', ' ').replace('_', ' ').title()
     title  = meta.get('title', default_title)
     slug   = meta.get('slug', base)
