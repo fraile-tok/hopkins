@@ -12,7 +12,7 @@ Of its own arduous fulness reverent:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As Day or Night may rule; and let Time see
 Its flowering crest impearl'd and orient.
 A Sonnet is a coin: its face reveals
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The soul,--its converse, to what Power 'tis due: —
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The soul,— its converse, to what Power 'tis due: —
 Whether for tribute to the august appeals
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Of Life, or dower in Love's high retinue,
 It serve; or, 'mid the dark wharf's cavernous breath,
