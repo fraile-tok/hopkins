@@ -37,7 +37,6 @@ slug: gods-idea-of-you
 <!-- Ever-bright, ever-kind,-->
 <!-- As if they were fashioned, too,-->
 <!-- From God's idea of you.-->
--->
 
 <!-- Version 2, January 2026-->
 Easy it might well seem,
