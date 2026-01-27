@@ -69,4 +69,4 @@ I am yet not sure.
 And all these things are
 Ever-bright, ever-kind,
 As if they are fashioned, too,
-From God's idea of you.
+From God's Idea of You.
