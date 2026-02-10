@@ -6,7 +6,7 @@ author: J.P. Iglesias
 _A la universidad_
 
 Alguna vez estos muros tenían entre ellos
-las aguas del mar y quien las navegara.
+las aguas del mar y quién las navegara.
 Tenían entre ellos las sombras de Hombre
 y sus más brillantes luces.
 
