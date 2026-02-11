@@ -3,11 +3,11 @@ title: Elegía
 author: J.P. Iglesias
 ---
 
-_A la universidad_
+_Al estudiante_
 
 Alguna vez estos muros tenían entre ellos
 las aguas del mar y quién las navegara.
-Tenían entre ellos las sombras de Hombre
+Tenían entre ellos las sombras del Hombre
 y sus más brillantes luces.
 
 Alguna vez venían aquí los sueños del mundo,
