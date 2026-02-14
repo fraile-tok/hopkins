@@ -35,6 +35,10 @@ jobs:
           python generate_poems.py
           python generate_index.py
           python generate_author.py
+      
+      - name: Generate Stats
+        run: |
+          python generate_stats.py
 
       - name: Ensure .nojekyll exists
         run: mkdir -p . && touch .nojekyll
