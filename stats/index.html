@@ -5,13 +5,13 @@
   <title>Hopkins — Stats</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../main.css">
-  <link rel="stylesheet" href="stats.css">
+  <link rel="stylesheet" href="/stats/stats.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 </head>
 <body>
   <div id="main">
@@ -32,12 +32,14 @@
     </div>
 
     <!-- Table -->
-    <table id="authors-table" aria-describedby="authorsLegend">
-      <thead>
-        <tr><th>Author</th><th style="width:80px">Poems</th></tr>
-      </thead>
-      <tbody id="authors-body"></tbody>
-    </table>
+    <div id="table-wrapper">
+        <table id="authors-table" aria-describedby="authorsLegend">
+            <thead>
+                <tr><th>Author</th><th style="width:80px">Poems</th></tr>
+            </thead>
+            <tbody id="authors-body"></tbody>
+        </table>
+    </div>
 
 
     <p id="tagline">Built with <a href="https://github.com/fraile-tok/hopkins">Hopkins</a> by <a href="https://jpiglesias.github.io">JPIglesias</a></p>
