@@ -34,7 +34,7 @@
     1,
     1,
     1,
-    1,
+    2,
     1,
     4,
     3,
@@ -49,7 +49,7 @@
     2,
     2,
     3,
-    6,
+    7,
     2,
     1,
     1,
@@ -80,7 +80,7 @@
     },
     {
       "author": "Emily Dickinson",
-      "count": 1
+      "count": 2
     },
     {
       "author": "Francis Thompson",
@@ -140,7 +140,7 @@
     },
     {
       "author": "T.S. Eliot",
-      "count": 6
+      "count": 7
     },
     {
       "author": "W.B. Yeats",
