@@ -1,0 +1,24 @@
+#stats-controls { display:flex; gap:1rem; align-items:center; margin: .5rem 0 1rem; flex-wrap:wrap }
+
+#chart-wrap { max-width:900px; margin: 0 auto 1.25rem; }
+
+canvas { width:100% !important; height:420px !important; }
+    
+#table-wrapper {
+    margin-top: 20px !important;
+    background-color: red !important;
+}
+
+#authors-table {
+    max-width: 720px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;}
+#authors-table th, #authors-table td { padding: .35rem .5rem; border-bottom: 1px solid #eee; text-align:left; font-size:0.95rem; }
+#authors-table th { font-weight:600; }
+
+.muted { color: #666; font-size: .95rem; }
+
+@media (max-width:640px) {
+    canvas { height: 520px !important; }
+}
