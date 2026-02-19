@@ -6,7 +6,6 @@ on:
     paths:
       - '_poems/**'
       - '_templates/**'
-      - 'stats/**'
       - 'generate_poems.py'
       - 'generate_index.py'
       - 'generate_author.py'
