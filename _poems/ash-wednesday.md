@@ -8,7 +8,7 @@ author: T.S. Eliot
 Because I do not hope to turn again
 Because I do not hope
 Because I do not hope to turn
-Desiring this man's gift and that man's scope
+Desiring this man's gift and that man's scope <!-- This is from Shakespeare's Sonnet 29, verse 6 -->
 I no longer strive to strive towards such things
 (Why should the agèd eagle stretch its wings?)
 Why should I mourn
