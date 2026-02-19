@@ -1,5 +1,6 @@
 {
   "labels": [
+    "Anne Bradstreet",
     "Anonymous 9th Century Irish Monk",
     "Blaise Pascal",
     "C.S. Lewis",
@@ -29,6 +30,7 @@
     "William Shakespeare"
   ],
   "data": [
+    2,
     1,
     1,
     1,
@@ -58,6 +60,10 @@
     22
   ],
   "raw": [
+    {
+      "author": "Anne Bradstreet",
+      "count": 2
+    },
     {
       "author": "Anonymous 9th Century Irish Monk",
       "count": 1
