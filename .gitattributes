@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Exclude generated HTML from count, because most is generated
+authors/* linguist-vendored
+poems/* linguist-vendored

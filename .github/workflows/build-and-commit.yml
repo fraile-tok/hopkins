@@ -36,7 +36,7 @@ jobs:
           python generate_index.py
           python generate_author.py
       
-      - name: Generate Stats
+      - name: Generate stats
         run: |
           python generate_stats.py
 
@@ -49,5 +49,5 @@ jobs:
           author_name: github-actions[bot]
           author_email: 41898282+github-actions[bot]@users.noreply.github.com
           message: "chore(site): build generated pages"
-          add: "poems/** authors/** index.html .nojekyll"
+          add: "poems/** authors/** stats/** index.html .nojekyll"
           push: true
