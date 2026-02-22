@@ -15,6 +15,7 @@
     "J.R.R. Tolkien",
     "John Keats",
     "Jorge Luis Borges",
+    "Jorge Manrique",
     "Lord Byron",
     "Marcela Duque",
     "Nezahualcóyotl",
@@ -45,6 +46,7 @@
     4,
     3,
     10,
+    1,
     1,
     1,
     1,
@@ -119,6 +121,10 @@
     {
       "author": "Jorge Luis Borges",
       "count": 10
+    },
+    {
+      "author": "Jorge Manrique",
+      "count": 1
     },
     {
       "author": "Lord Byron",
