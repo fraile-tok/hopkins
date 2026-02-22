@@ -50,14 +50,14 @@
     1,
     2,
     2,
-    3,
+    4,
     7,
-    2,
+    3,
     1,
     1,
     3,
     1,
-    22
+    27
   ],
   "raw": [
     {
@@ -142,7 +142,7 @@
     },
     {
       "author": "Robert Frost",
-      "count": 3
+      "count": 4
     },
     {
       "author": "T.S. Eliot",
@@ -150,7 +150,7 @@
     },
     {
       "author": "W.B. Yeats",
-      "count": 2
+      "count": 3
     },
     {
       "author": "Walt Whitman",
@@ -170,7 +170,7 @@
     },
     {
       "author": "William Shakespeare",
-      "count": 22
+      "count": 27
     }
   ]
 }
