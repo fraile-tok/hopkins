@@ -13,6 +13,7 @@
     "Gerard Manley Hopkins",
     "J.P. Iglesias",
     "J.R.R. Tolkien",
+    "Jane Austen",
     "John Keats",
     "Jorge Luis Borges",
     "Jorge Manrique",
@@ -20,6 +21,7 @@
     "Marcela Duque",
     "Nezahualcóyotl",
     "Oliver Herford",
+    "Owen Barfield",
     "Percy Bysshe Shelley",
     "Robert Frost",
     "T.S. Eliot",
@@ -44,6 +46,7 @@
     24,
     22,
     4,
+    1,
     3,
     10,
     1,
@@ -51,6 +54,7 @@
     1,
     1,
     2,
+    1,
     2,
     4,
     7,
@@ -115,6 +119,10 @@
       "count": 4
     },
     {
+      "author": "Jane Austen",
+      "count": 1
+    },
+    {
       "author": "John Keats",
       "count": 3
     },
@@ -141,6 +149,10 @@
     {
       "author": "Oliver Herford",
       "count": 2
+    },
+    {
+      "author": "Owen Barfield",
+      "count": 1
     },
     {
       "author": "Percy Bysshe Shelley",
