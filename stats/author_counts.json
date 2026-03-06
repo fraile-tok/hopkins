@@ -6,6 +6,7 @@
     "C.S. Lewis",
     "Dante Gabriel Rosetti",
     "Dylan Thomas",
+    "Edgar Allan Poe",
     "Emily Dickinson",
     "Francis Thompson",
     "G.K. Chesterton",
@@ -40,13 +41,14 @@
     1,
     1,
     1,
-    2,
     1,
-    4,
+    3,
+    1,
+    5,
     3,
     24,
     23,
-    4,
+    5,
     1,
     3,
     10,
@@ -59,8 +61,8 @@
     1,
     2,
     4,
-    7,
-    3,
+    8,
+    4,
     1,
     1,
     3,
@@ -93,8 +95,12 @@
       "count": 1
     },
     {
+      "author": "Edgar Allan Poe",
+      "count": 1
+    },
+    {
       "author": "Emily Dickinson",
-      "count": 2
+      "count": 3
     },
     {
       "author": "Francis Thompson",
@@ -102,7 +108,7 @@
     },
     {
       "author": "G.K. Chesterton",
-      "count": 4
+      "count": 5
     },
     {
       "author": "George Herbert",
@@ -118,7 +124,7 @@
     },
     {
       "author": "J.R.R. Tolkien",
-      "count": 4
+      "count": 5
     },
     {
       "author": "Jane Austen",
@@ -170,11 +176,11 @@
     },
     {
       "author": "T.S. Eliot",
-      "count": 7
+      "count": 8
     },
     {
       "author": "W.B. Yeats",
-      "count": 3
+      "count": 4
     },
     {
       "author": "Walt Whitman",
