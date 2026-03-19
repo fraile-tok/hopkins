@@ -1,6 +1,6 @@
 ---
 author: Robert Frost
-title: Stoping by Woods on a Snowy Evening
+title: Stopping by Woods on a Snowy Evening
 ---
 
 Whose woods these are I think I know.
