@@ -27,6 +27,7 @@
     "Owen Barfield",
     "Percy Bysshe Shelley",
     "Robert Frost",
+    "Siegfried Sassoon",
     "T.S. Eliot",
     "W.B. Yeats",
     "Walt Whitman",
@@ -44,7 +45,7 @@
     1,
     1,
     1,
-    6,
+    7,
     1,
     5,
     3,
@@ -64,8 +65,9 @@
     1,
     2,
     5,
+    2,
     8,
-    5,
+    6,
     2,
     1,
     1,
@@ -104,7 +106,7 @@
     },
     {
       "author": "Emily Dickinson",
-      "count": 6
+      "count": 7
     },
     {
       "author": "Francis Thompson",
@@ -183,12 +185,16 @@
       "count": 5
     },
     {
+      "author": "Siegfried Sassoon",
+      "count": 2
+    },
+    {
       "author": "T.S. Eliot",
       "count": 8
     },
     {
       "author": "W.B. Yeats",
-      "count": 5
+      "count": 6
     },
     {
       "author": "Walt Whitman",
