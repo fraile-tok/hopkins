@@ -3,7 +3,7 @@ title: Dear March — Come in
 author: Emily Dickinson
 ---
 
-Dear March—Come in—
+Dear March — Come in—
 How glad I am—
 I hoped for you before—
 Put down your Hat—

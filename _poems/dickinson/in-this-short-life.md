@@ -1,6 +1,6 @@
 ---
 author: Emily Dickinson
-title: In this Short Life
+title: In this short life
 ---
 
 In this short Life

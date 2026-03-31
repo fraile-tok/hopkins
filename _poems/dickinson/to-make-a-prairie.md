@@ -1,5 +1,5 @@
 ---
-title: To Make a Prairie
+title: To make a prairie
 author: Emily Dickinson
 ---
 

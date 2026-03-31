@@ -1,9 +1,9 @@
 ---
-title: I Died for Beauty
+title: I died for Beauty
 author: Emily Dickinson
 ---
 
-I died for beauty—but was scarce
+I died for Beauty—but was scarce
 Adjusted in the tomb,
 When One who died for Truth was lain
 In an adjoining Room.

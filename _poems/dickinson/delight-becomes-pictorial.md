@@ -1,0 +1,14 @@
+---
+title: Delight becomes pictorial
+author: Emily Dickinson
+---
+
+Delight becomes pictorial
+When viewed through pain, —
+More fair, because impossible
+That any gain.
+  
+The mountain at a given distance
+In amber lies;
+Approached, the amber flits a little, —
+And that 's the skies!
