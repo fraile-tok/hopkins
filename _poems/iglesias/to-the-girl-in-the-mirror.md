@@ -13,5 +13,5 @@ arouse to song the world — marred world!
 Your skin, your lips, your eyes, what more?
 Your wits, your heart to adore — alas!
 &nbsp;&nbsp;The glass can't show what I so love,
-&nbsp;&nbsp;thus your must bear my slippery song,
+&nbsp;&nbsp;thus you must bear my slippery song,
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;you, mirror girl.
