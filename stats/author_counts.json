@@ -29,6 +29,7 @@
     "Robert Frost",
     "Siegfried Sassoon",
     "T.S. Eliot",
+    "Terrence Malick",
     "W.B. Yeats",
     "Walt Whitman",
     "Wendell Berry",
@@ -59,7 +60,7 @@
     3,
     1,
     1,
-    1,
+    2,
     1,
     2,
     1,
@@ -67,9 +68,10 @@
     5,
     2,
     8,
+    1,
     6,
     2,
-    2,
+    3,
     1,
     3,
     1,
@@ -162,7 +164,7 @@
     },
     {
       "author": "Mary Oliver",
-      "count": 1
+      "count": 2
     },
     {
       "author": "Nezahualcóyotl",
@@ -193,6 +195,10 @@
       "count": 8
     },
     {
+      "author": "Terrence Malick",
+      "count": 1
+    },
+    {
       "author": "W.B. Yeats",
       "count": 6
     },
@@ -202,7 +208,7 @@
     },
     {
       "author": "Wendell Berry",
-      "count": 2
+      "count": 3
     },
     {
       "author": "Wendy Cope",
