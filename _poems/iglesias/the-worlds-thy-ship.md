@@ -14,7 +14,7 @@ nor small, cold cell,
 but you must be brave
 or drown on its swell.
 The world's a ship,
-not mere coffin, prais!
+not mere coffin, praise!
 After this strange trip,
 comes God's embrace.
 &nbsp;&nbsp;&nbsp;&nbsp;Here, Man: sail joyful this way,
