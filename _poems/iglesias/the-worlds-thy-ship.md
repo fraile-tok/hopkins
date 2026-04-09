@@ -17,5 +17,5 @@ The world's a ship,
 not mere coffin, praise!
 After this strange trip,
 comes God's embrace.
-&nbsp;&nbsp;&nbsp;&nbsp;Here, Man: sail joyful this way,
-&nbsp;&nbsp;&nbsp;&nbsp;till the glorious dawn of such sweet day.
+&nbsp;&nbsp;&nbsp;&nbsp;Hear, Man: sail joyful this way,
+&nbsp;&nbsp;&nbsp;&nbsp;till the glorious dawn of such a day.
