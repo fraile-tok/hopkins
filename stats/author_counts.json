@@ -28,6 +28,7 @@
     "Owen Barfield",
     "Percy Bysshe Shelley",
     "Robert Frost",
+    "Salvador Novo",
     "Siegfried Sassoon",
     "T.S. Eliot",
     "Terrence Malick",
@@ -69,6 +70,7 @@
     1,
     2,
     5,
+    1,
     2,
     8,
     1,
@@ -193,6 +195,10 @@
     {
       "author": "Robert Frost",
       "count": 5
+    },
+    {
+      "author": "Salvador Novo",
+      "count": 1
     },
     {
       "author": "Siegfried Sassoon",
