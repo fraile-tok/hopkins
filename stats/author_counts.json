@@ -1,5 +1,6 @@
 {
   "labels": [
+    "Alexander Pope",
     "Anne Bradstreet",
     "Anonymous",
     "Anonymous 9th Century Irish Monk",
@@ -29,6 +30,7 @@
     "Percy Bysshe Shelley",
     "Robert Frost",
     "Salvador Novo",
+    "Seamus Heaney",
     "Siegfried Sassoon",
     "T.S. Eliot",
     "Terrence Malick",
@@ -42,6 +44,7 @@
     "Wisława Szymborska"
   ],
   "data": [
+    1,
     2,
     1,
     1,
@@ -55,7 +58,7 @@
     5,
     3,
     24,
-    25,
+    26,
     8,
     1,
     4,
@@ -71,6 +74,7 @@
     2,
     5,
     1,
+    1,
     2,
     8,
     1,
@@ -84,6 +88,10 @@
     1
   ],
   "raw": [
+    {
+      "author": "Alexander Pope",
+      "count": 1
+    },
     {
       "author": "Anne Bradstreet",
       "count": 2
@@ -138,7 +146,7 @@
     },
     {
       "author": "J.P. Iglesias",
-      "count": 25
+      "count": 26
     },
     {
       "author": "J.R.R. Tolkien",
@@ -198,6 +206,10 @@
     },
     {
       "author": "Salvador Novo",
+      "count": 1
+    },
+    {
+      "author": "Seamus Heaney",
       "count": 1
     },
     {
