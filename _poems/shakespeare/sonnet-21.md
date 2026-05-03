@@ -7,16 +7,13 @@ So is it not with me as with that muse
 Stirred by a painted beauty to his verse,
 Who heaven itself for ornament doth use
 And every fair with his fair doth rehearse,
-
 Making a couplement of proud compare
 With sun and moon, with earth and sea’s rich gems,
 With April’s firstborn flowers and all things rare
 That heaven’s air in this huge rondure hems.
-
 O, let me, true in love, but truly write,
 And then believe me, my love is as fair
 As any mother’s child, though not so bright
-
 As those gold candles fixed in heaven’s air.
-Let them say more that like of hearsay well;
-I will not praise that purpose not to sell.
+&nbsp;&nbsp;&nbsp;&nbsp;Let them say more that like of hearsay well;
+&nbsp;&nbsp;&nbsp;&nbsp;I will not praise that purpose not to sell.
