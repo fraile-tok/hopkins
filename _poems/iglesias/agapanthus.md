@@ -5,7 +5,7 @@ author: J.P. Iglesias
 
 _(a sketch)_
 
-Beside the muleed grass
+Beside the mulled grass
 stands a row of green blades
 set around shoots
 of Nature's slow-moving
