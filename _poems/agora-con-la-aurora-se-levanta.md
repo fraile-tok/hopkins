@@ -1,0 +1,22 @@
+---
+title: Agora con la aurora se levanta
+author: Fray Luis de León
+---
+
+Agora con la aurora se levanta
+mi Luz; agora coge en rico nudo
+el hermoso cabello; agora el crudo
+pecho ciñe con oro y la garganta;
+
+agora, vuelta al cielo, pura y santa,
+las manos y ojos bellos alza, y pudo
+dolerse agora de mi mal agudo;
+agora incomparable tañe y canta.
+
+Así digo y del dulce error llevado
+presente ante mis ojos la imagino
+y lleno de humildad y amor la adoro;
+
+más luego vuelve en sí el engañado
+ánimo y, conociendo el desatino,
+la rienda suelta largamente al lloro.

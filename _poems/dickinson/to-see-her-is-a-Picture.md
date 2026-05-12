@@ -1,0 +1,13 @@
+---
+title: To See Her is a Picture
+author: Emily Dickinson
+---
+
+To see her is a Picture —
+To hear her is a Tune —
+To know her an Intemperance
+As innocent as June —
+To know her not — Affliction —
+To own her for a Friend
+A warmth as near as if the Sun
+Were shining in your Hand.
