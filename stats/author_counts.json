@@ -12,6 +12,7 @@
     "Edgar Allan Poe",
     "Emily Dickinson",
     "Francis Thompson",
+    "Fray Luis de León",
     "G.K. Chesterton",
     "George Herbert",
     "Gerard Manley Hopkins",
@@ -55,8 +56,9 @@
     1,
     1,
     1,
-    9,
+    10,
     1,
+    2,
     5,
     3,
     24,
@@ -69,7 +71,7 @@
     3,
     1,
     1,
-    2,
+    5,
     1,
     2,
     1,
@@ -132,11 +134,15 @@
     },
     {
       "author": "Emily Dickinson",
-      "count": 9
+      "count": 10
     },
     {
       "author": "Francis Thompson",
       "count": 1
+    },
+    {
+      "author": "Fray Luis de León",
+      "count": 2
     },
     {
       "author": "G.K. Chesterton",
@@ -188,7 +194,7 @@
     },
     {
       "author": "Mary Oliver",
-      "count": 2
+      "count": 5
     },
     {
       "author": "Nezahualcóyotl",
