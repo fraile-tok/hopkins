@@ -16,6 +16,7 @@
     "G.K. Chesterton",
     "George Herbert",
     "Gerard Manley Hopkins",
+    "Gerardo Diego",
     "J.P. Iglesias",
     "J.R.R. Tolkien",
     "Jane Austen",
@@ -30,6 +31,7 @@
     "Oliver Herford",
     "Owen Barfield",
     "Percy Bysshe Shelley",
+    "Regina Ochoa",
     "Robert Frost",
     "Salvador Novo",
     "Seamus Heaney",
@@ -62,6 +64,7 @@
     5,
     3,
     24,
+    1,
     28,
     12,
     1,
@@ -76,7 +79,8 @@
     2,
     1,
     2,
-    5,
+    1,
+    6,
     1,
     1,
     2,
@@ -157,6 +161,10 @@
       "count": 24
     },
     {
+      "author": "Gerardo Diego",
+      "count": 1
+    },
+    {
       "author": "J.P. Iglesias",
       "count": 28
     },
@@ -213,8 +221,12 @@
       "count": 2
     },
     {
+      "author": "Regina Ochoa",
+      "count": 1
+    },
+    {
       "author": "Robert Frost",
-      "count": 5
+      "count": 6
     },
     {
       "author": "Salvador Novo",
