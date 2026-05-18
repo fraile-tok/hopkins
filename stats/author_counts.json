@@ -34,6 +34,7 @@
     "Regina Ochoa",
     "Robert Frost",
     "Salvador Novo",
+    "San Juan de la Cruz",
     "Seamus Heaney",
     "Siegfried Sassoon",
     "T.S. Eliot",
@@ -82,6 +83,7 @@
     1,
     6,
     1,
+    2,
     1,
     2,
     8,
@@ -231,6 +233,10 @@
     {
       "author": "Salvador Novo",
       "count": 1
+    },
+    {
+      "author": "San Juan de la Cruz",
+      "count": 2
     },
     {
       "author": "Seamus Heaney",
