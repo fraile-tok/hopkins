@@ -5,7 +5,7 @@ author: J.P. Iglesias
 
 The Bride is set
 in a bright, warm gown.
-Jazmins make her wreath;
+Jasmines make her wreath;
 stirred clouds her veil.
 Her tresses are bound,
 wound up and tied.
