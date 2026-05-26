@@ -3,8 +3,6 @@ title: Ode to a Library
 author: Regina Ochoa
 ---
 
-Ode to a Library
-
 Endless hallways and towering shelves 
 Soft, velvet, colorful covers
 What is it they hide behind their curtains? 
