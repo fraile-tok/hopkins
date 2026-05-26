@@ -26,6 +26,7 @@
     "Jorge Manrique",
     "Leopoldo Marechal",
     "Lord Byron",
+    "Malcolm Guite",
     "Marcela Duque",
     "Mary Oliver",
     "Nezahualcóyotl",
@@ -75,6 +76,7 @@
     10,
     3,
     3,
+    1,
     1,
     2,
     6,
@@ -202,6 +204,10 @@
     },
     {
       "author": "Lord Byron",
+      "count": 1
+    },
+    {
+      "author": "Malcolm Guite",
       "count": 1
     },
     {
