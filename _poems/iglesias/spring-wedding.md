@@ -14,6 +14,6 @@ laid by morning dew.
 And thus she waits
 under Spring's new heat,
 watching time mar
-her soft skin; she sing:
+her soft skin; she sings:
 "when shall it come,
 the day I die and yet live on?
