@@ -30,7 +30,7 @@ you ask, talking about a life
 yet to be with fright in your eyes.
 "That storms often come
 but always go.
-That the green of grass
-comes from the water's life.
-That the world is loved
-even on storm days."
+"That the green of grass
+comes from water's life.
+"That the world is loved
+even on days of storm."
