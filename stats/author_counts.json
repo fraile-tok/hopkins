@@ -11,6 +11,7 @@
     "Dylan Thomas",
     "Edgar Allan Poe",
     "Emily Dickinson",
+    "Ernestina de Champormucín",
     "Francis Thompson",
     "Fray Luis de León",
     "G.K. Chesterton",
@@ -41,6 +42,7 @@
     "Siegfried Sassoon",
     "T.S. Eliot",
     "Terrence Malick",
+    "Thomas Merton",
     "W.B. Yeats",
     "Walt Whitman",
     "Wendell Berry",
@@ -62,6 +64,7 @@
     1,
     1,
     10,
+    1,
     1,
     3,
     6,
@@ -91,6 +94,7 @@
     2,
     2,
     8,
+    1,
     1,
     7,
     2,
@@ -145,6 +149,10 @@
     {
       "author": "Emily Dickinson",
       "count": 10
+    },
+    {
+      "author": "Ernestina de Champormucín",
+      "count": 1
     },
     {
       "author": "Francis Thompson",
@@ -264,6 +272,10 @@
     },
     {
       "author": "Terrence Malick",
+      "count": 1
+    },
+    {
+      "author": "Thomas Merton",
       "count": 1
     },
     {
